@@ -6,7 +6,7 @@ using Frameworkk;
 using System.Threading;
 using System.IO;
 
-namespace FrameworkTests
+namespace Tests
 {
     [TestFixture]
     public class UnitTest1

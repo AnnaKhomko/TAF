@@ -18,13 +18,8 @@ C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\bin\Debug\Tests.dll.config
 C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\bin\Debug\Tests.dll
 C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\bin\Debug\Tests.pdb
 C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\bin\Debug\nunit.framework.dll
-C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\bin\Debug\WebDriver.dll
-C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\bin\Debug\WebDriver.Support.dll
-C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\bin\Debug\Framework.pdb
-C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\bin\Debug\Frameworkk.pdb
 C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\bin\Debug\nunit.framework.xml
-C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\bin\Debug\WebDriver.xml
-C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\bin\Debug\WebDriver.Support.xml
 C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
 C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\obj\Debug\Tests.dll
 C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\obj\Debug\Tests.pdb
+C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
