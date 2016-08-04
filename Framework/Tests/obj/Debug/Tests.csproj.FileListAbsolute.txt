@@ -38,4 +38,3 @@ C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\obj\Debug\Tests.Data.resource
 C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\obj\Debug\Tests.csproj.GenerateResource.Cache
 C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\bin\Debug\log4net.dll
 C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\bin\Debug\log4net.xml
-C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll

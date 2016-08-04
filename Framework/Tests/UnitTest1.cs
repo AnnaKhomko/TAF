@@ -43,7 +43,7 @@ namespace Tests
         [TearDown]
         public void Cleanup()
         {
-           
+            Thread.Sleep(1000);
            WebDriver.CloseWebDriver();
 
         }
@@ -79,91 +79,7 @@ namespace Tests
             Assert.IsTrue(true);
         }
 
-        [Test]
-        public void TestSetSettings()
-        {
-            string path = TestContext.CurrentContext.TestDirectory;
-            autorisation.SetLogin(user2.Login);
-            autorisation.SetPassword(user2.Password);
-            // sett.OpenSettings();
-            settings.OpenLinkSettings();
-            settings.ChooseForwardPage();
-            settings.AddForwardAddress(user3.Login);
-            //Thread.Sleep(1000);
-            exit.LogOut();
-            exit.ChangeAccount();
-            exit.AddAccount();
-
-            autorisation.SetLogin(user3.Login);
-            autorisation.SetPassword(user3.Password);
-
-            sendingMess.OpenMessage();
-            sendingMess.ConfirmRequest();
-
-            exit.LogOut();
-            exit.AddAccount();
-
-            autorisation.SetLogin(user2.Login);
-
-            autorisation.SetPassword(user2.Password);
-
-            //sett.OpenSettings();
-
-            settings.OpenLinkSettings();
-
-            settings.ChooseForwardPage();
-
-
-
-
-            settings.SetFilters(user1.Login);
-            settings.ForwardAcopyOfIncomeMail();
-
-            //Thread.Sleep(1000);
-            exit.LogOut();
-            exit.AddAccount();
-
-            autorisation.SetLogin(user1.Login);
-            autorisation.SetPassword(user1.Password);
-            sendingMess.CreateMessage(user2.Login, "password2user");
-            sendingMess.SendMessage();
-            sendingMess.AttachDocument(path+Data.FileName, user2.Login, "password2user");
-            Thread.Sleep(1000);
-            sendingMess.SendMessage();
-            //Thread.Sleep(1000);
-            exit.LogOut();
-            //ex.ChangeAccount();
-            exit.AddAccount();
-
-            autorisation.SetLogin(user2.Login);
-
-            autorisation.SetPassword(user2.Password);
-            Assert.IsTrue(spamMessage.IsUnimportant());
-            Assert.IsTrue(spamMessage.IsImportant());
-
-            exit.LogOut();
-            exit.AddAccount();
-
-            autorisation.SetLogin(user3.Login);
-            autorisation.SetPassword(user3.Password);
-
-            sendingMess.OpenMessage();
-            string message = sendingMess.GetMessageText();
-            Assert.AreEqual("password2user", message);
-            Assert.IsTrue(true);
-
-            exit.LogOut();
-            exit.AddAccount();
-
-            autorisation.SetLogin(user2.Login);
-            autorisation.SetPassword(user2.Password);
-            // sett.OpenSettings();
-            settings.OpenLinkSettings();
-            settings.ChooseForwardPage();
-
-            settings.ClearSettings();
-
-        }
+       
 
         [Test]
         public void TestSendMessageWithBigAttach()
