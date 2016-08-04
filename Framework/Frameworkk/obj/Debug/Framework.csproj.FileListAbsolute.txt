@@ -38,3 +38,5 @@ C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Frameworkk\bin\Debug\WebDriver.Supp
 C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Frameworkk\obj\Debug\Framework.csprojResolveAssemblyReference.cache
 C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Frameworkk\obj\Debug\Frameworkk.dll
 C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Frameworkk\obj\Debug\Frameworkk.pdb
+C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Frameworkk\bin\Debug\log4net.dll
+C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Frameworkk\bin\Debug\log4net.xml

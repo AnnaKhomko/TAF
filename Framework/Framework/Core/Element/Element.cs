@@ -12,12 +12,19 @@ namespace Framework.Core.Element
     public class Element
     {
         public string xPath;
+        public string name;
         IWebDriver driver = WebDriver.GetDriver();
         Waiters waiter = new Waiters();
 
         public Element(string xPath)
         {
             this.xPath = xPath;
+        }
+
+        public Element(string xPath, string name)
+        {
+            this.xPath = xPath;
+            this.name = name;
         }
 
         public By ByElement 

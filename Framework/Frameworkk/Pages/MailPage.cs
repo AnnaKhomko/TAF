@@ -14,14 +14,14 @@ namespace Framework.Pages
         {
             get
             {
-                return new Button("//div[text()='COMPOSE']");
+                return new Button("//div[text()='COMPOSE']", "BtCompose");
             }
         }
         public Link LMore
         {
             get
             {
-                return new Link("//span[text()='More']");
+                return new Link("//span[text()='More']", "LMore");
             }
         }
         
@@ -29,35 +29,35 @@ namespace Framework.Pages
         {
             get
             {
-                return new Link("//div[3]/div/div/div/div[4]/div/div/div");
+                return new Link("//a[contains(text(), 'Spam')]", "LSpam");
             }
         }
         public Link LAccount
         {
             get
             {
-                return new Link("//div/a/span");
+                return new Link("//div/a/span", "LAccount");
             }
         }
         public Button BtSignOut
         {
             get
             {
-                return new Button("//a[text()='Sign out']");
+                return new Button("//a[text()='Sign out']", "BtSignOut");
             }
         }
         public Link LMessage
         {
             get
             {
-                return new Link("//td[6]/div/div/div");
+                return new Link("//td[6]/div/div/div", "LMessage");
             }
         }
         public TextArea TaMessageText
         {
             get
             {
-                return new TextArea("//div[2]/div[7]/div/div");
+                return new TextArea("//div[2]/div[7]/div/div", "TaMessageText");
             }
         }
 
@@ -65,7 +65,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Link("//*[@id=\"account-chooser-link\"]");
+                return new Link("//*[@id=\"account-chooser-link\"]", "LChangeAccount");
 
             }
         } 
@@ -74,7 +74,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Link("//a[text()='Add account']");
+                return new Link("//a[text()='Add account']", "LAddAccount");
             }
         }
 
@@ -82,7 +82,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Button("//div[23]");
+                return new Button("//div[23]", "BtWin");
             }
         }
 
@@ -90,7 +90,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Link("//div[3]/div/div/div/div[5]/div/div/div");
+                return new Link("//a[contains(text(), 'Trash')]", "LTrash");
             }
         }
 
@@ -98,14 +98,14 @@ namespace Framework.Pages
         {
             get
             {
-                return new Link("//div[@aria-label='Important because it matched one of your importance filters.']");
+                return new Link("//div[@aria-label='Important because it matched one of your importance filters.']", "LImportant");
             }
         }
         public Link LUnImportant
         {
             get
             {
-                return new Link("//div[@aria-label='Not important']");
+                return new Link("//div[@aria-label='Not important']", "LUnImportant");
             }
         }
 
@@ -113,7 +113,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Button("//img[@data-goomoji='1f60e']");
+                return new Button("//img[@data-goomoji='1f60e']", "ImgFirstEmodi");
             }
         }
 
@@ -121,7 +121,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Button("//img[@data-goomoji='1f60d']");
+                return new Button("//img[@data-goomoji='1f60d']", "ImgSecondEmodi");
             }
         }
 
@@ -129,7 +129,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Link("//span/a");
+                return new Link("//a[contains(text(), 'Inbox')]", "LInbox");
             }
         }
 
@@ -137,7 +137,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Button("//div[text()='Not spam']");
+                return new Button("//div[text()='Not spam']", "BtNotSpam");
             }
         }
 
@@ -145,7 +145,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new CheckBox("//div[4]/div/div/table/tbody/tr/td[2]/div");
+                return new CheckBox("//div[4]/div/div/table/tbody/tr/td[2]/div", "ChbSpamMessage");
             }
         }
 
@@ -153,7 +153,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Link("//span[@aria-label='Not starred']");
+                return new Link("//span[@aria-label='Not starred']", "LStar");
             }
         }
 
@@ -161,7 +161,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Link("//a[contains(text(),'Starred')]");
+                return new Link("//a[contains(text(),'Starred')]", "LStarred");
             }
         }
 
@@ -169,7 +169,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new CheckBox("//div[4]/div/div/table/tbody/tr/td[3]/span");
+                return new CheckBox("//div[4]/div/div/table/tbody/tr/td[3]/span", "ChbStarred");
             }
         }
 

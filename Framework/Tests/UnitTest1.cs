@@ -43,7 +43,9 @@ namespace Tests
         [TearDown]
         public void Cleanup()
         {
+           
            WebDriver.CloseWebDriver();
+
         }
 
         [Test]
@@ -80,6 +82,7 @@ namespace Tests
         [Test]
         public void TestSetSettings()
         {
+            string path = TestContext.CurrentContext.TestDirectory;
             autorisation.SetLogin(user2.Login);
             autorisation.SetPassword(user2.Password);
             // sett.OpenSettings();
@@ -124,7 +127,7 @@ namespace Tests
             autorisation.SetPassword(user1.Password);
             sendingMess.CreateMessage(user2.Login, "password2user");
             sendingMess.SendMessage();
-            sendingMess.AttachDocument(@"C:\Users\Hanna_Khomka@epam.com\Documents\Trainings\Matrix.txt", user2.Login, "password2user");
+            sendingMess.AttachDocument(path+Data.FileName, user2.Login, "password2user");
             Thread.Sleep(1000);
             sendingMess.SendMessage();
             //Thread.Sleep(1000);
@@ -165,10 +168,10 @@ namespace Tests
         [Test]
         public void TestSendMessageWithBigAttach()
         {
-
+            string path = TestContext.CurrentContext.TestDirectory;
             autorisation.SetLogin(user2.Login);
             autorisation.SetPassword(user2.Password);
-            sendingMess.AttachDocument(@"C:\Users\Hanna_Khomka@epam.com\Documents\Trainings\BigFile.7z", user1.Login, "bigAttach");
+            sendingMess.AttachDocument(path+Data.BigFileName, user1.Login, "bigAttach");
             Thread.Sleep(1000);
 
             Assert.IsTrue(sendingMess.IsDisplayedAlert());
@@ -179,12 +182,12 @@ namespace Tests
         [Test]
         public void TestSettingTheme()
         {
-
+            string path = TestContext.CurrentContext.TestDirectory;
             autorisation.SetLogin(user2.Login);
             autorisation.SetPassword(user2.Password);
 
             settingTheme.OpenLinkTheme();
-            settingTheme.UploadTheme(@"C:\Users\Hanna_Khomka@epam.com\Documents\Trainings\Matrix.txt");
+            settingTheme.UploadTheme(path+Data.FileName);
 
 
             Assert.IsTrue(settingTheme.IsWarningMessage());

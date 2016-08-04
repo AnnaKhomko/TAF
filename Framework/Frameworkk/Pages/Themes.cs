@@ -15,7 +15,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Button("//div[text()='My Photos']");
+                return new Button("//div[text()='My Photos']", "BtMyPhotoes");
             }
         }
 
@@ -23,7 +23,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Link("//a[text()='Themes']");
+                return new Link("//a[text()='Themes']", "LThemes");
             }
         }
 
@@ -31,7 +31,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Link("//a[text()='Set Theme.']");
+                return new Link("//a[text()='Set Theme.']", "LSetThemes");
             }
         }
 
@@ -39,7 +39,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Link("//div[text()='Upload a photo']");
+                return new Link("//div[text()='Upload a photo']", "LUploadPhotos");
             }
         }
 
@@ -47,7 +47,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Button("//div[text()='Select a photo from your computer']");
+                return new Button("//div[text()='Select a photo from your computer']", "BtSelectFromComputer");
             }
         }
 
@@ -55,7 +55,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new TextArea("//div[text()='Selected file [Matrix.txt] is not supported for upload.']");
+                return new TextArea("//div[text()='Selected file [Matrix.txt] is not supported for upload.']", "TaWarningMessage");
             }
         }
 

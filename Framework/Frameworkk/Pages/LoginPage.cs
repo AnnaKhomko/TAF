@@ -18,7 +18,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Button("//*[@id=\"next\"]");
+                return new Button("//*[@id=\"next\"]", "BtNext");
             }
         }
 
@@ -26,7 +26,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Button("//*[@id=\"signIn\"]");
+                return new Button("//*[@id=\"signIn\"]", "BtSignIn");
             }
         }
 
@@ -34,7 +34,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Input("//*[@id=\"Email\"]");
+                return new Input("//*[@id=\"Email\"]" , "InpLogin");
             }
         }
 
@@ -42,7 +42,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Input("//*[@id=\"Passwd\"]");
+                return new Input("//*[@id=\"Passwd\"]", "InpPassword");
             }
         }
 
@@ -50,7 +50,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Link("//a[contains(text(),'Sign in with a different account')]");
+                return new Link("//a[contains(text(),'Sign in with a different account')]", "LChangeAccount");
             }
         }
 

@@ -10,18 +10,22 @@ namespace Framework.Pages
 {
     public class Settings
     {
-        public Button BtSettings
-        {
-            get
-            {
-                return new Button("//div[2]/div/div/div/div/div[4]/div[2]/div[2]/div");
-            }
-        }
+
+        public string uri = "https://mail.google.com/mail/#settings/general";
+
+
+        //public Button BtSettings
+        //{
+        //    get
+        //    {
+        //        return new Button("//div[2]/div/div/div/div/div[4]/div[2]/div[2]/div");
+        //    }
+        //}
         public Link LForwarding
         {
             get
             {
-                return new Link("//a[text()='Forwarding and POP/IMAP']");
+                return new Link("//a[text()='Forwarding and POP/IMAP']", "LForwarding");
 
             }
         }
@@ -29,91 +33,91 @@ namespace Framework.Pages
         {
             get
             {
-                return new Button("//input[@value='Add a forwarding address']");
+                return new Button("//input[@value='Add a forwarding address']", "BtAddForwardAddress");
             }
         }
         public Input InpAddress
         {
             get
             {
-                return new Input("//*[@class='PN']/input");
+                return new Input("//*[@class='PN']/input", "InpAddress");
             }
         }
         public Button BtNext
         {
             get
             {
-                return new Button("//button[text()='Next']");
+                return new Button("//button[text()='Next']", "BtNext");
             }
         }
         public Button BtProceed
         {
             get
             {
-                return new Button("//input[@value='Proceed']");
+                return new Button("//input[@value='Proceed']", "BtProceed");
             }
         }
         public Button BtOk
         {
             get
             {
-                return new Button("//button[@name='ok']");
+                return new Button("//button[@name='ok']", "BtOk");
             }
         }
         public RadioButton RbForwardACopy
         {
             get
             {
-                return new RadioButton("//span[contains(.,'Forward a copy of incoming mail to')]/../preceding-sibling::td/input");
+                return new RadioButton("//span[contains(.,'Forward a copy of incoming mail to')]/../preceding-sibling::td/input", "RbForwardACopy");
             }
         }
         public Link LFilters
         {
             get
             {
-                return new Link("//span[text()='creating a filter!']");
+                return new Link("//span[text()='creating a filter!']", "LCreateFilters");
             }
         }
         public Input InpFrom
         {
             get
             {
-                return new Input("//span[2]/input");
+                return new Input("//span[2]/input", "InpFrom");
             }
         }
         public CheckBox ChbHasAttachment
         {
             get
             {
-                return new CheckBox("//div[7]/span/input");
+                return new CheckBox("//div[7]/span/input", "ChbHasAttachment");
             }
         }
         public CheckBox ChbDeleteIt
         {
             get
             {
-                return new CheckBox("//div[6]/input");
+                return new CheckBox("//div[6]/input", "ChbDeleteIt");
             }
         }
         public Link LFilterWithSearch
         {
             get
             {
-                return new Link("//div[text()='Create filter with this search »']");
+                return new Link("//div[text()='Create filter with this search »']", "LFilterWithSearch");
             }
         }
         public CheckBox ChbMarkAsImportant
         {
             get
             {
-                return new CheckBox("//div[8]/input");
+                return new CheckBox("//div[8]/input", "ChbMarkAsImportant");
             }
         }
         public Button BtCreateFilters
         {
             get
             {
-                return new Button("//div[text()='Create filter']");
+                return new Button("//div[text()='Create filter']", "BtCreateFilters");
             }
         }
 
@@ -121,7 +125,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Button("//input[@value='Confirm']");
+                return new Button("//input[@value='Confirm']", "BtConfirm");
             }
         }
 
@@ -130,7 +134,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Link("//a[4]");
+                return new Link("//a[4]", "LconReq");
             }
         } 
 
@@ -138,7 +142,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Button("//button[text()='Save Changes']");
+                return new Button("//button[text()='Save Changes']", "BtSaveChanges");
             }
         }
 
@@ -146,7 +150,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new CheckBox("//input[@name='sx_sg']");
+                return new CheckBox("//input[@name='sx_sg']", "ChbSignature");
             }
         }
 
@@ -154,7 +158,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new TextArea("//div[@aria-label='Signature']");
+                return new TextArea("//div[@aria-label='Signature']", "TaSignature");
             }
                 }
 
@@ -162,7 +166,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Button("//span/select");
+                return new Button("//span/select", "BtSelect");
             }
         }
 
@@ -170,17 +174,11 @@ namespace Framework.Pages
         {
             get
             {
-                return new Link("//option[@value='2']");
+                return new Link("//option[@value='2']", "LRemoveUserFromFilter");
             }
         }
 
-        //public Button BtOK
-        //{
-        //    get
-        //    {
-        //        return new Button("//button[@name='OK']");
-        //    }
-        //}
-        public string uri = "https://mail.google.com/mail/#settings/general";
+       
+        
     }
 }

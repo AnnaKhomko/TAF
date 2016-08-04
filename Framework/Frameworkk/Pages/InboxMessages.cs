@@ -14,14 +14,14 @@ namespace Framework.Pages
         {
             get
             {
-                return new CheckBox("//div[2]/div/table/tbody/tr/td[2]/div/div");
+                return new CheckBox("//div[2]/div/table/tbody/tr/td[2]/div/div", "CheckMessage");
             }
         }
         public Button BtReportSpam
         {
             get
             {
-                return new Button("//div[2]/div/div/div/div/div/div/div/div/div/div[2]/div[2]");
+                return new Button("//div[@aria-label='Report spam']", "ReportSpam");
             }
         }
     }

@@ -1,4 +1,5 @@
-﻿using Framework.Core.Element;
+﻿using Framework.Core;
+using Framework.Core.Element;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,9 +15,15 @@ namespace Framework.Elements
 
         }
 
+        public Link(string xPath, string name) : base(xPath, name)
+        {
+
+        }
+
         public void FollowToLink()
         {
             IElement.Click();
+            Logger.LogToFile($"Link {name} was followed!");
         }
     }
 }

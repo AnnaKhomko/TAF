@@ -84,7 +84,7 @@ namespace Framework.Steps
         public bool IsDisplayedAlert()
         {
             //WebDriver.GetDriver().SwitchTo().Alert();
-            if (mbp.WarningMessage.IElement.Displayed)
+            if (mbp.TaWarningMessage.IElement.Displayed)
                 return true;
 
             else return false;
@@ -93,7 +93,7 @@ namespace Framework.Steps
 
         public void CloseAlert()
         {
-            mbp.CloseAlert.Click();
+            mbp.BtCloseAlert.Click();
         }
 
         public void SendMessageWithEmoticons(string receiver)

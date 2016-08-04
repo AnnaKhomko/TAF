@@ -14,21 +14,21 @@ namespace Framework.Pages
         {
             get
             {
-                return new TextArea("//textarea[@name='to']");
+                return new TextArea("//textarea[@name='to']", "TaReceiver");
             }
         }
         public TextArea TaMessage
         {
             get
             {
-                return new TextArea("//tbody/tr/td[2]/div[2]/div");
+                return new TextArea("//tbody/tr/td[2]/div[2]/div", "TaMessageText");
             }
         }
         public Button BtSend
         {
             get
             {
-                return new Button("//div[text()='Send']");
+                return new Button("//div[text()='Send']", "BtSend");
             }
         }
 
@@ -36,23 +36,23 @@ namespace Framework.Pages
         {
             get
             {
-                return new Button("//td[4]/div/div/div/div");
+                return new Button("//td[4]/div/div/div/div", "BtAttach");
             }
         }
 
-        public TextArea WarningMessage
+        public TextArea TaWarningMessage
         {
             get
             {
-                return new TextArea("//div[@class='bab']");
+                return new TextArea("//div[@class='bab']", "TaWarningMessage");
             }
         }
 
-        public Button CloseAlert
+        public Button BtCloseAlert
         {
             get
             {
-                return new Button("//span[@aria-label='Close']");
+                return new Button("//span[@aria-label='Close']", "BtCloseAlert");
             }
         }
 
@@ -60,7 +60,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Button("//div[@class='QT aaA aMZ']");
+                return new Button("//div[@class='QT aaA aMZ']", "BtEmoticons");
             }
         }
 
@@ -68,7 +68,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Button("//button[@string='1f60e']");
+                return new Button("//button[@string='1f60e']", "BtFirstEmodi");
             }
         }
 
@@ -76,7 +76,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Button("//button[@string='1f60d']");
+                return new Button("//button[@string='1f60d']", "BtSecondEmodi");
             }
         }
 
@@ -84,7 +84,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Button("//button[@title='Show face emoticons']");
+                return new Button("//button[@title='Show face emoticons']", "BtAllEmoticons");
             }
         }
 
@@ -92,7 +92,7 @@ namespace Framework.Pages
         {
             get
             {
-                return new Link("//a[contains(@href, 'mailto:second.user.example@gmail.com')]");
+                return new Link("//a[contains(@href, 'mailto:second.user.example@gmail.com')]", "LSignature");
             }
         }
     }

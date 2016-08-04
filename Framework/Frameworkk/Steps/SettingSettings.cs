@@ -16,12 +16,12 @@ namespace Framework.Steps
         Settings sett = new Settings();
         MessageBoxPage mbp = new MessageBoxPage();
 
-        public void OpenSettings()
-        {
+        //public void OpenSettings()
+        //{
 
            
-            sett.BtSettings.Click();
-        }
+        //    sett.BtSettings.Click();
+        //}
 
         public void OpenLinkSettings()
         {
