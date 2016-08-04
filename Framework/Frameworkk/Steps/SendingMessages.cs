@@ -1,6 +1,6 @@
 ﻿using Framework.Core.Driver;
-using Frameworkk.Elements;
-using Frameworkk.Pages;
+using Framework.Elements;
+using Framework.Pages;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Frameworkk.Steps
+namespace Framework.Steps
 {
     public class SendingMessages
     {
@@ -66,8 +66,13 @@ namespace Frameworkk.Steps
             mp.BtCompose.Click();
             mbp.TaReceiver.SetText(receiver);
             mbp.TaMessage.SetText(text);
-            Clipboard.SetText(path);
-            Thread.Sleep(1000);
+            Thread thread = new Thread(
+                () =>
+                {
+                    Clipboard.SetText(path);
+                });
+            thread.SetApartmentState(ApartmentState.STA);
+            thread.Start();
             mbp.BtAttach.Click();
             SendKeys.SendWait("^(v)");
             Thread.Sleep(2000);

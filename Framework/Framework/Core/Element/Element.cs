@@ -32,7 +32,7 @@ namespace Framework.Core.Element
         {
             get
             {
-                return waiter.WaitForElement(20, ByElement);
+                return waiter.WaitForElement(30, ByElement);
             }
         }
     }

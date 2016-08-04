@@ -1,5 +1,5 @@
 ﻿using Framework.Core.Driver;
-using Frameworkk.Pages;
+using Framework.Pages;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Frameworkk.Steps
+namespace Framework.Steps
 {
     public class SettingTheme
     {
@@ -29,6 +29,7 @@ namespace Frameworkk.Steps
             
            // 
             themes.BtMyPhotoes.Click();
+            Thread.Sleep(1000);
             WebDriver.GetDriver().SwitchTo().Frame(WebDriver.GetDriver().FindElement(By.XPath("//iframe[@class='KA-JQ']")));
             themes.LUploadPhotos.FollowToLink();
             Thread thread = new Thread(

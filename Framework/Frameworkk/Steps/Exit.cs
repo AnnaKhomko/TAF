@@ -1,14 +1,15 @@
 ﻿using Framework.Core.Driver;
-using Frameworkk.Elements;
-using Frameworkk.Pages;
+using Framework.Elements;
+using Framework.Pages;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
-namespace Frameworkk.Steps
+namespace Framework.Steps
 {
     public class Exit
     {
@@ -16,8 +17,8 @@ namespace Frameworkk.Steps
 
         public void LogOut()
         {
+            Thread.Sleep(1000);
 
-           
             mp.LAccount.FollowToLink();
             mp.BtSignOut.Click();
 

@@ -1,6 +1,6 @@
 ﻿using Framework.Core.Driver;
-using Frameworkk.Elements;
-using Frameworkk.Pages;
+using Framework.Elements;
+using Framework.Pages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,11 +8,13 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Frameworkk.Steps
+namespace Framework.Steps
 {
     public class SettingSettings
     {
+        MailPage mp = new MailPage();
         Settings sett = new Settings();
+        MessageBoxPage mbp = new MessageBoxPage();
 
         public void OpenSettings()
         {
@@ -70,5 +72,29 @@ namespace Frameworkk.Steps
             sett.BtCreateFilters.Click();
         }
 
+        public void SetSignature(string signature)
+        {
+            sett.ChbSignature.Select();
+            sett.TaSignature.SetText(signature);
+            Thread.Sleep(1000);
+            sett.BtSaveChanges.Click();
+        }
+
+        public bool IsSignature(string sign)
+        {
+            mp.BtCompose.Click();
+            var ness= mbp.TaMessage.GetText();
+            Thread.Sleep(1000);
+            return ness.Contains(sign);
+            //return mbp.LSignature.IElement.Displayed;
+        }
+
+        public void ClearSettings()
+        {
+            sett.BtSelect.Click();
+            sett.LRemove.FollowToLink();
+           
+            sett.BtOk.Click();
+        }
     }
 }

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Frameworkk.Elements
+namespace Framework.Elements
 {
     public class TextArea : Element
     {
@@ -16,6 +16,7 @@ namespace Frameworkk.Elements
 
         public void SetText(string text)
         {
+            IElement.Clear();
             IElement.SendKeys(text);
         }
 

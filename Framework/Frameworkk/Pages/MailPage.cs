@@ -1,4 +1,4 @@
-﻿using Frameworkk.Elements;
+﻿using Framework.Elements;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Frameworkk.Pages
+namespace Framework.Pages
 {
     public class MailPage
     {
@@ -146,6 +146,30 @@ namespace Frameworkk.Pages
             get
             {
                 return new CheckBox("//div[4]/div/div/table/tbody/tr/td[2]/div");
+            }
+        }
+
+        public Link LStar
+        {
+            get
+            {
+                return new Link("//span[@aria-label='Not starred']");
+            }
+        }
+
+        public Link LStarred
+        {
+            get
+            {
+                return new Link("//a[contains(text(),'Starred')]");
+            }
+        }
+
+        public CheckBox ChbStarred
+        {
+            get
+            {
+                return new CheckBox("//div[4]/div/div/table/tbody/tr/td[3]/span");
             }
         }
 

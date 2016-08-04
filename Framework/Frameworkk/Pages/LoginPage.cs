@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Framework.Core;
-using Frameworkk.Elements;
+using Framework.Elements;
 using OpenQA.Selenium;
 using Framework.Core.Element;
 using Framework.Core.Driver;
 
-namespace Frameworkk.Pages
+namespace Framework.Pages
 {
     public class LoginPage : Page
     {

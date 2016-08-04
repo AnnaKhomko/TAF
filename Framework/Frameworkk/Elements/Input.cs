@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Framework.Core.Element;
 
-namespace Frameworkk.Elements
+namespace Framework.Elements
 {
     public class Input : Element
     {

@@ -21,6 +21,5 @@ C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Framework\bin\Debug\WebDriver.dll
 C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Framework\bin\Debug\WebDriver.Support.dll
 C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Framework\bin\Debug\WebDriver.xml
 C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Framework\bin\Debug\WebDriver.Support.xml
-C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Framework\obj\Debug\FrameworkCore.csprojResolveAssemblyReference.cache
 C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Framework\obj\Debug\Framework.dll
 C:\Users\Hanna_Khomka@epam.com\TAF\Framework\Framework\obj\Debug\Framework.pdb

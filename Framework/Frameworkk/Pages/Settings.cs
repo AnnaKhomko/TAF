@@ -1,4 +1,4 @@
-﻿using Frameworkk.Elements;
+﻿using Framework.Elements;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Frameworkk.Pages
+namespace Framework.Pages
 {
     public class Settings
     {
@@ -138,12 +138,49 @@ namespace Frameworkk.Pages
         {
             get
             {
-                return new Button("/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div[2]/div[1]/div[1]/div/div/div/div/div/div/div[6]/div/table/tbody/tr[4]/td/div/button[1]");
+                return new Button("//button[text()='Save Changes']");
             }
         }
 
+        public CheckBox ChbSignature
+        {
+            get
+            {
+                return new CheckBox("//input[@name='sx_sg']");
+            }
+        }
 
+        public TextArea TaSignature
+        {
+            get
+            {
+                return new TextArea("//div[@aria-label='Signature']");
+            }
+                }
 
+        public Button BtSelect
+        {
+            get
+            {
+                return new Button("//span/select");
+            }
+        }
+
+        public Link LRemove
+        {
+            get
+            {
+                return new Link("//option[@value='2']");
+            }
+        }
+
+        //public Button BtOK
+        //{
+        //    get
+        //    {
+        //        return new Button("//button[@name='OK']");
+        //    }
+        //}
         public string uri = "https://mail.google.com/mail/#settings/general";
     }
 }

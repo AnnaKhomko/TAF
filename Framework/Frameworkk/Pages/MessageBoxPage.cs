@@ -1,4 +1,4 @@
-﻿using Frameworkk.Elements;
+﻿using Framework.Elements;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Frameworkk.Pages
+namespace Framework.Pages
 {
     public class MessageBoxPage
     {
@@ -85,6 +85,14 @@ namespace Frameworkk.Pages
             get
             {
                 return new Button("//button[@title='Show face emoticons']");
+            }
+        }
+
+        public Link LSignature
+        {
+            get
+            {
+                return new Link("//a[contains(@href, 'mailto:second.user.example@gmail.com')]");
             }
         }
     }

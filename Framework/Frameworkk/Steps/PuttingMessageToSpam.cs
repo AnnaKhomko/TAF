@@ -1,12 +1,12 @@
-﻿using Frameworkk.Elements;
-using Frameworkk.Pages;
+﻿using Framework.Elements;
+using Framework.Pages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Frameworkk.Steps
+namespace Framework.Steps
 {
     public class PuttingMessageToSpam
     {
