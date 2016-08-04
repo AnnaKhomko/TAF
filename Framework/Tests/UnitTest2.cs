@@ -51,7 +51,7 @@ namespace Tests
             settings.ChooseForwardPage();
 
             settings.ClearSettings();
-
+            Thread.Sleep(1000);
             WebDriver.CloseWebDriver();
 
         }

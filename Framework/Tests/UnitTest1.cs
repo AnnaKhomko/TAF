@@ -156,7 +156,7 @@ namespace Tests
             sendingMess.OpenMessage();
             string text = sendingMess.GetMessageText();
 
-            Assert.AreEqual(Data.SecondMessage, text);
+            Assert.AreEqual(Data.FirstMessage, text);
 
         }
 
