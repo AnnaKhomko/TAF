@@ -26,9 +26,9 @@ namespace Tests
         [SetUp]
         public void Init()
         {
-            user1 = new User("first.user.example@gmail.com", "password1user");
-            user2 = new User("second.user.example@gmail.com", "password2user");
-            user3 = new User("third.user.example@gmail.com", "password3user");
+            user1 = new User(Data.FirstUserLogin, Data.FirstUserPassword);
+            user2 = new User(Data.SecondUserLogin, Data.SecondUserPassword);
+            user3 = new User(Data.ThirdUserLogin, Data.ThirdUserPassword);
             autorisation = new Authorisation();
             sendingMess = new SendingMessages();
             exit = new Exit();
@@ -53,7 +53,7 @@ namespace Tests
         {
             autorisation.SetLogin(user1.Login);
             autorisation.SetPassword(user1.Password);
-            sendingMess.CreateMessage(user2.Login, "Hello" + handler.GetCity());
+            sendingMess.CreateMessage(user2.Login, Data.FirstMessage + "from " + handler.GetCity());
             sendingMess.SendMessage();
            
             exit.LogOut();
@@ -66,7 +66,7 @@ namespace Tests
             exit.AddAccount();
             autorisation.SetLogin(user1.Login);
             autorisation.SetPassword(user1.Password);
-            sendingMess.CreateMessage(user2.Login, "Bye");
+            sendingMess.CreateMessage(user2.Login, Data.SecondMessage);
             sendingMess.SendMessage();
             exit.LogOut();
             exit.AddAccount();
@@ -75,7 +75,7 @@ namespace Tests
             spamMessage.OpenSpam();
             sendingMess.OpenMessage();
             string message = sendingMess.GetMessageText();
-            Assert.AreEqual("Bye", message);
+            Assert.AreEqual(Data.SecondMessage, message);
             Assert.IsTrue(true);
         }
 
@@ -87,7 +87,7 @@ namespace Tests
             string path = TestContext.CurrentContext.TestDirectory;
             autorisation.SetLogin(user2.Login);
             autorisation.SetPassword(user2.Password);
-            sendingMess.AttachDocument(path+Data.BigFileName, user1.Login, "bigAttach");
+            sendingMess.AttachDocument(path+Data.BigFileName, user1.Login, Data.ThirdMessage);
             Thread.Sleep(1000);
 
             Assert.IsTrue(sendingMess.IsDisplayedAlert());
@@ -107,7 +107,7 @@ namespace Tests
 
 
             Assert.IsTrue(settingTheme.IsWarningMessage());
-            Assert.IsTrue(true);
+           
 
         }
 
@@ -132,7 +132,7 @@ namespace Tests
             sendingMess.OpenMessage();
 
             Assert.IsTrue(sendingMess.IsEmodiDisplayed());
-            Assert.IsTrue(true);
+            
         }
 
         [Test]
@@ -143,7 +143,7 @@ namespace Tests
 
             autorisation.SetLogin(user1.Login);
             autorisation.SetPassword(user1.Password);
-            sendingMess.CreateMessage(user2.Login, "Hello");
+            sendingMess.CreateMessage(user2.Login, Data.FirstMessage);
             sendingMess.SendMessage();
             exit.LogOut();
             exit.ChangeAccount();
@@ -156,7 +156,7 @@ namespace Tests
             sendingMess.OpenMessage();
             string text = sendingMess.GetMessageText();
 
-            Assert.AreEqual("Hello", text);
+            Assert.AreEqual(Data.SecondMessage, text);
 
         }
 

@@ -149,3 +149,162 @@
 2016-08-04 19:56:35,709 INFO Framework.Core.Logger - Button BtMyPhotoes was clicked!
 2016-08-04 19:56:38,131 INFO Framework.Core.Logger - Link LUploadPhotos was followed!
 2016-08-04 19:56:39,241 INFO Framework.Core.Logger - Button BtSelectFromComputer was clicked!
+2016-08-04 20:15:12,913 INFO Framework.Core.Logger - Input InpLogin was cleared
+2016-08-04 20:15:13,294 INFO Framework.Core.Logger - Text: 'second.user.example@gmail.com' was setted in input InpLogin
+2016-08-04 20:15:14,096 INFO Framework.Core.Logger - Button BtNext was clicked!
+2016-08-04 20:15:15,211 INFO Framework.Core.Logger - Input InpPassword was cleared
+2016-08-04 20:15:15,334 INFO Framework.Core.Logger - Text: 'password2user' was setted in input InpPassword
+2016-08-04 20:15:15,986 INFO Framework.Core.Logger - Button BtSignIn was clicked!
+2016-08-04 20:15:23,638 INFO Framework.Core.Logger - CheckBox ChbSignature was selected!
+2016-08-04 20:15:25,712 INFO Framework.Core.Logger - TextArea TaSignature was cleared
+2016-08-04 20:15:26,858 INFO Framework.Core.Logger - Text: 'second.user.example@gmail.com' was setted in TextArea TaSignature
+2016-08-04 20:15:28,380 INFO Framework.Core.Logger - Button BtSaveChanges was clicked!
+2016-08-04 20:15:33,300 INFO Framework.Core.Logger - Button BtCompose was clicked!
+2016-08-04 20:15:54,104 INFO Framework.Core.Logger - Input InpLogin was cleared
+2016-08-04 20:15:54,299 INFO Framework.Core.Logger - Text: 'third.user.example@gmail.com' was setted in input InpLogin
+2016-08-04 20:15:55,671 INFO Framework.Core.Logger - Button BtNext was clicked!
+2016-08-04 20:15:56,884 INFO Framework.Core.Logger - Input InpPassword was cleared
+2016-08-04 20:15:57,027 INFO Framework.Core.Logger - Text: 'password3user' was setted in input InpPassword
+2016-08-04 20:15:57,598 INFO Framework.Core.Logger - Button BtSignIn was clicked!
+2016-08-04 20:16:02,345 INFO Framework.Core.Logger - Link LStar was followed!
+2016-08-04 20:16:03,709 INFO Framework.Core.Logger - Link LStarred was followed!
+2016-08-04 20:16:26,899 INFO Framework.Core.Logger - Input InpLogin was cleared
+2016-08-04 20:16:30,433 INFO Framework.Core.Logger - Text: 'first.user.example@gmail.com' was setted in input InpLogin
+2016-08-04 20:16:30,612 INFO Framework.Core.Logger - Button BtNext was clicked!
+2016-08-04 20:16:32,371 INFO Framework.Core.Logger - Input InpPassword was cleared
+2016-08-04 20:16:32,900 INFO Framework.Core.Logger - Text: 'password1user' was setted in input InpPassword
+2016-08-04 20:16:33,581 INFO Framework.Core.Logger - Button BtSignIn was clicked!
+2016-08-04 20:16:38,933 INFO Framework.Core.Logger - Button BtCompose was clicked!
+2016-08-04 20:16:40,495 INFO Framework.Core.Logger - TextArea TaReceiver was cleared
+2016-08-04 20:16:42,373 INFO Framework.Core.Logger - Text: 'second.user.example@gmail.com' was setted in TextArea TaReceiver
+2016-08-04 20:16:42,876 INFO Framework.Core.Logger - TextArea TaMessageText was cleared
+2016-08-04 20:16:43,220 INFO Framework.Core.Logger - Text: 'HelloCincinnati' was setted in TextArea TaMessageText
+2016-08-04 20:16:43,540 INFO Framework.Core.Logger - Button BtSend was clicked!
+2016-08-04 20:17:12,190 INFO Framework.Core.Logger - Input InpLogin was cleared
+2016-08-04 20:17:12,460 INFO Framework.Core.Logger - Text: 'first.user.example@gmail.com' was setted in input InpLogin
+2016-08-04 20:17:21,364 INFO Framework.Core.Logger - Button BtNext was clicked!
+2016-08-04 20:17:22,565 INFO Framework.Core.Logger - Input InpPassword was cleared
+2016-08-04 20:17:22,799 INFO Framework.Core.Logger - Text: 'password1user' was setted in input InpPassword
+2016-08-04 20:17:23,458 INFO Framework.Core.Logger - Button BtSignIn was clicked!
+2016-08-04 20:17:28,603 INFO Framework.Core.Logger - Button BtCompose was clicked!
+2016-08-04 20:17:30,889 INFO Framework.Core.Logger - TextArea TaReceiver was cleared
+2016-08-04 20:17:33,175 INFO Framework.Core.Logger - Text: 'second.user.example@gmail.com' was setted in TextArea TaReceiver
+2016-08-04 20:17:33,703 INFO Framework.Core.Logger - TextArea TaMessageText was cleared
+2016-08-04 20:17:33,957 INFO Framework.Core.Logger - Text: 'Hello' was setted in TextArea TaMessageText
+2016-08-04 20:17:34,686 INFO Framework.Core.Logger - Button BtSend was clicked!
+2016-08-04 20:17:35,846 INFO Framework.Core.Logger - Link LAccount was followed!
+2016-08-04 20:17:36,173 INFO Framework.Core.Logger - Button BtSignOut was clicked!
+2016-08-04 20:17:39,166 INFO Framework.Core.Logger - Link LChangeAccount was followed!
+2016-08-04 20:17:39,658 INFO Framework.Core.Logger - Link LAddAccount was followed!
+2016-08-04 20:17:40,633 INFO Framework.Core.Logger - Input InpLogin was cleared
+2016-08-04 20:17:40,917 INFO Framework.Core.Logger - Text: 'second.user.example@gmail.com' was setted in input InpLogin
+2016-08-04 20:17:41,115 INFO Framework.Core.Logger - Button BtNext was clicked!
+2016-08-04 20:17:41,710 INFO Framework.Core.Logger - Input InpPassword was cleared
+2016-08-04 20:17:41,841 INFO Framework.Core.Logger - Text: 'password2user' was setted in input InpPassword
+2016-08-04 20:17:42,522 INFO Framework.Core.Logger - Button BtSignIn was clicked!
+2016-08-04 20:17:49,842 INFO Framework.Core.Logger - CheckBox CheckMessage was selected!
+2016-08-04 20:18:06,439 INFO Framework.Core.Logger - Button ReportSpam was clicked!
+2016-08-04 20:18:06,704 INFO Framework.Core.Logger - Link LMore was followed!
+2016-08-04 20:18:07,628 INFO Framework.Core.Logger - Link LSpam was followed!
+2016-08-04 20:18:08,418 INFO Framework.Core.Logger - CheckBox ChbSpamMessage was selected!
+2016-08-04 20:18:08,740 INFO Framework.Core.Logger - Button BtNotSpam was clicked!
+2016-08-04 20:18:09,284 INFO Framework.Core.Logger - Link LInbox was followed!
+2016-08-04 20:18:10,940 INFO Framework.Core.Logger - Link LMessage was followed!
+2016-08-04 20:18:30,620 INFO Framework.Core.Logger - Input InpLogin was cleared
+2016-08-04 20:18:30,929 INFO Framework.Core.Logger - Text: 'second.user.example@gmail.com' was setted in input InpLogin
+2016-08-04 20:18:33,404 INFO Framework.Core.Logger - Button BtNext was clicked!
+2016-08-04 20:18:34,506 INFO Framework.Core.Logger - Input InpPassword was cleared
+2016-08-04 20:18:34,633 INFO Framework.Core.Logger - Text: 'password2user' was setted in input InpPassword
+2016-08-04 20:18:35,254 INFO Framework.Core.Logger - Button BtSignIn was clicked!
+2016-08-04 20:18:39,812 INFO Framework.Core.Logger - Button BtCompose was clicked!
+2016-08-04 20:18:40,380 INFO Framework.Core.Logger - TextArea TaReceiver was cleared
+2016-08-04 20:18:41,383 INFO Framework.Core.Logger - Text: 'first.user.example@gmail.com' was setted in TextArea TaReceiver
+2016-08-04 20:18:43,324 INFO Framework.Core.Logger - Button BtEmoticons was clicked!
+2016-08-04 20:18:44,747 INFO Framework.Core.Logger - Button BtAllEmoticons was clicked!
+2016-08-04 20:18:46,184 INFO Framework.Core.Logger - Button BtFirstEmodi was clicked!
+2016-08-04 20:18:46,916 INFO Framework.Core.Logger - Button BtSecondEmodi was clicked!
+2016-08-04 20:18:47,569 INFO Framework.Core.Logger - Button BtSend was clicked!
+2016-08-04 20:18:48,765 INFO Framework.Core.Logger - Link LAccount was followed!
+2016-08-04 20:18:49,111 INFO Framework.Core.Logger - Button BtSignOut was clicked!
+2016-08-04 20:18:51,159 INFO Framework.Core.Logger - Link LChangeAccount was followed!
+2016-08-04 20:18:51,649 INFO Framework.Core.Logger - Link LAddAccount was followed!
+2016-08-04 20:18:51,907 INFO Framework.Core.Logger - Input InpLogin was cleared
+2016-08-04 20:18:52,085 INFO Framework.Core.Logger - Text: 'first.user.example@gmail.com' was setted in input InpLogin
+2016-08-04 20:18:52,223 INFO Framework.Core.Logger - Button BtNext was clicked!
+2016-08-04 20:18:52,793 INFO Framework.Core.Logger - Input InpPassword was cleared
+2016-08-04 20:18:52,901 INFO Framework.Core.Logger - Text: 'password1user' was setted in input InpPassword
+2016-08-04 20:18:53,408 INFO Framework.Core.Logger - Button BtSignIn was clicked!
+2016-08-04 20:18:59,600 INFO Framework.Core.Logger - Link LMessage was followed!
+2016-08-04 20:19:12,106 INFO Framework.Core.Logger - Input InpLogin was cleared
+2016-08-04 20:19:12,513 INFO Framework.Core.Logger - Text: 'second.user.example@gmail.com' was setted in input InpLogin
+2016-08-04 20:19:13,814 INFO Framework.Core.Logger - Button BtNext was clicked!
+2016-08-04 20:19:14,967 INFO Framework.Core.Logger - Input InpPassword was cleared
+2016-08-04 20:19:15,081 INFO Framework.Core.Logger - Text: 'password2user' was setted in input InpPassword
+2016-08-04 20:19:15,616 INFO Framework.Core.Logger - Button BtSignIn was clicked!
+2016-08-04 20:19:20,319 INFO Framework.Core.Logger - Button BtCompose was clicked!
+2016-08-04 20:19:22,956 INFO Framework.Core.Logger - TextArea TaReceiver was cleared
+2016-08-04 20:19:23,420 INFO Framework.Core.Logger - Text: 'first.user.example@gmail.com' was setted in TextArea TaReceiver
+2016-08-04 20:19:24,157 INFO Framework.Core.Logger - TextArea TaMessageText was cleared
+2016-08-04 20:19:24,543 INFO Framework.Core.Logger - Text: 'bigAttach' was setted in TextArea TaMessageText
+2016-08-04 20:19:36,768 INFO Framework.Core.Logger - Button BtAttach was clicked!
+2016-08-04 20:19:42,116 INFO Framework.Core.Logger - Button BtCloseAlert was clicked!
+2016-08-04 20:19:53,008 INFO Framework.Core.Logger - Input InpLogin was cleared
+2016-08-04 20:19:53,235 INFO Framework.Core.Logger - Text: 'second.user.example@gmail.com' was setted in input InpLogin
+2016-08-04 20:19:54,398 INFO Framework.Core.Logger - Button BtNext was clicked!
+2016-08-04 20:19:55,678 INFO Framework.Core.Logger - Input InpPassword was cleared
+2016-08-04 20:19:55,783 INFO Framework.Core.Logger - Text: 'password2user' was setted in input InpPassword
+2016-08-04 20:19:56,346 INFO Framework.Core.Logger - Button BtSignIn was clicked!
+2016-08-04 20:20:02,904 INFO Framework.Core.Logger - Link LThemes was followed!
+2016-08-04 20:20:04,914 INFO Framework.Core.Logger - Link LSetThemes was followed!
+2016-08-04 20:20:06,429 INFO Framework.Core.Logger - Button BtMyPhotoes was clicked!
+2016-08-04 20:20:08,396 INFO Framework.Core.Logger - Link LUploadPhotos was followed!
+2016-08-04 20:20:09,118 INFO Framework.Core.Logger - Button BtSelectFromComputer was clicked!
+2016-08-04 20:20:22,306 INFO Framework.Core.Logger - Input InpLogin was cleared
+2016-08-04 20:20:22,539 INFO Framework.Core.Logger - Text: 'second.user.example@gmail.com' was setted in input InpLogin
+2016-08-04 20:20:23,953 INFO Framework.Core.Logger - Button BtNext was clicked!
+2016-08-04 20:20:25,558 INFO Framework.Core.Logger - Input InpPassword was cleared
+2016-08-04 20:20:25,716 INFO Framework.Core.Logger - Text: 'password2user' was setted in input InpPassword
+2016-08-04 20:20:26,406 INFO Framework.Core.Logger - Button BtSignIn was clicked!
+2016-08-04 20:20:32,216 INFO Framework.Core.Logger - Link LForwarding was followed!
+2016-08-04 20:20:33,500 INFO Framework.Core.Logger - Button BtAddForwardAddress was clicked!
+2016-08-04 20:20:35,329 INFO Framework.Core.Logger - Input InpAddress was cleared
+2016-08-04 20:20:35,704 INFO Framework.Core.Logger - Text: 'third.user.example@gmail.com' was setted in input InpAddress
+2016-08-04 20:20:36,272 INFO Framework.Core.Logger - Button BtNext was clicked!
+2016-08-04 20:20:38,697 INFO Framework.Core.Logger - Button BtProceed was clicked!
+2016-08-04 20:20:39,120 INFO Framework.Core.Logger - Button BtOk was clicked!
+2016-08-04 20:20:40,348 INFO Framework.Core.Logger - Link LAccount was followed!
+2016-08-04 20:20:40,689 INFO Framework.Core.Logger - Button BtSignOut was clicked!
+2016-08-04 20:20:42,676 INFO Framework.Core.Logger - Link LChangeAccount was followed!
+2016-08-04 20:20:42,889 INFO Framework.Core.Logger - Link LAddAccount was followed!
+2016-08-04 20:20:43,501 INFO Framework.Core.Logger - Input InpLogin was cleared
+2016-08-04 20:20:43,678 INFO Framework.Core.Logger - Text: 'third.user.example@gmail.com' was setted in input InpLogin
+2016-08-04 20:20:43,798 INFO Framework.Core.Logger - Button BtNext was clicked!
+2016-08-04 20:20:44,386 INFO Framework.Core.Logger - Input InpPassword was cleared
+2016-08-04 20:20:44,490 INFO Framework.Core.Logger - Text: 'password3user' was setted in input InpPassword
+2016-08-04 20:20:44,952 INFO Framework.Core.Logger - Button BtSignIn was clicked!
+2016-08-04 20:20:50,300 INFO Framework.Core.Logger - Link LMessage was followed!
+2016-08-04 20:20:52,324 INFO Framework.Core.Logger - Link LconReq was followed!
+2016-08-04 20:20:55,511 INFO Framework.Core.Logger - Button BtConfirm was clicked!
+2016-08-04 20:20:56,810 INFO Framework.Core.Logger - Link LAccount was followed!
+2016-08-04 20:20:57,230 INFO Framework.Core.Logger - Button BtSignOut was clicked!
+2016-08-04 20:20:59,008 INFO Framework.Core.Logger - Link LAddAccount was followed!
+2016-08-04 20:20:59,270 INFO Framework.Core.Logger - Input InpLogin was cleared
+2016-08-04 20:20:59,454 INFO Framework.Core.Logger - Text: 'second.user.example@gmail.com' was setted in input InpLogin
+2016-08-04 20:20:59,582 INFO Framework.Core.Logger - Button BtNext was clicked!
+2016-08-04 20:21:00,154 INFO Framework.Core.Logger - Input InpPassword was cleared
+2016-08-04 20:21:00,264 INFO Framework.Core.Logger - Text: 'password2user' was setted in input InpPassword
+2016-08-04 20:21:00,689 INFO Framework.Core.Logger - Button BtSignIn was clicked!
+2016-08-04 20:21:06,674 INFO Framework.Core.Logger - Link LForwarding was followed!
+2016-08-04 20:21:08,519 INFO Framework.Core.Logger - Link LCreateFilters was followed!
+2016-08-04 20:21:08,998 INFO Framework.Core.Logger - Input InpFrom was cleared
+2016-08-04 20:21:09,319 INFO Framework.Core.Logger - Text: 'first.user.example@gmail.com' was setted in input InpFrom
+2016-08-04 20:21:10,025 INFO Framework.Core.Logger - CheckBox ChbHasAttachment was selected!
+2016-08-04 20:21:10,271 INFO Framework.Core.Logger - Link LFilterWithSearch was followed!
+2016-08-04 20:21:12,411 INFO Framework.Core.Logger - CheckBox ChbDeleteIt was selected!
+2016-08-04 20:21:12,610 INFO Framework.Core.Logger - CheckBox ChbMarkAsImportant was selected!
+2016-08-04 20:21:12,760 INFO Framework.Core.Logger - Button BtCreateFilters was clicked!
+2016-08-04 20:21:14,083 INFO Framework.Core.Logger - RadioButton RbForwardACopy was selected!
+2016-08-04 20:21:14,270 INFO Framework.Core.Logger - Button BtSaveChanges was clicked!
+2016-08-04 20:21:15,616 INFO Framework.Core.Logger - Link LAccount was followed!
+2016-08-04 20:21:15,937 INFO Framework.Core.Logger - Button BtSignOut was clicked!
+2016-08-04 20:21:18,036 INFO Framework.Core.Logger - Link LAddAccount was followed!

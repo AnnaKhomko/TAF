@@ -123,4 +123,31 @@
   <data name="FileName" xml:space="preserve">
     <value>\Matrix.txt</value>
   </data>
+  <data name="FirstMessage" xml:space="preserve">
+    <value>Hello</value>
+  </data>
+  <data name="FirstUserLogin" xml:space="preserve">
+    <value>first.user.example@gmail.com</value>
+  </data>
+  <data name="FirstUserPassword" xml:space="preserve">
+    <value>password1user</value>
+  </data>
+  <data name="SecondMessage" xml:space="preserve">
+    <value>Bye</value>
+  </data>
+  <data name="SecondUserLogin" xml:space="preserve">
+    <value>second.user.example@gmail.com</value>
+  </data>
+  <data name="SecondUserPassword" xml:space="preserve">
+    <value>password2user</value>
+  </data>
+  <data name="ThirdMessage" xml:space="preserve">
+    <value>Big Attach</value>
+  </data>
+  <data name="ThirdUserLogin" xml:space="preserve">
+    <value>third.user.example@gmail.com</value>
+  </data>
+  <data name="ThirdUserPassword" xml:space="preserve">
+    <value>password3user</value>
+  </data>
 </root>

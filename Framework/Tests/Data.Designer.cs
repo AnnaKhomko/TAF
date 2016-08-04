@@ -77,5 +77,86 @@ namespace Tests {
                 return ResourceManager.GetString("FileName", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hello.
+        /// </summary>
+        internal static string FirstMessage {
+            get {
+                return ResourceManager.GetString("FirstMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to first.user.example@gmail.com.
+        /// </summary>
+        internal static string FirstUserLogin {
+            get {
+                return ResourceManager.GetString("FirstUserLogin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to password1user.
+        /// </summary>
+        internal static string FirstUserPassword {
+            get {
+                return ResourceManager.GetString("FirstUserPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bye.
+        /// </summary>
+        internal static string SecondMessage {
+            get {
+                return ResourceManager.GetString("SecondMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to second.user.example@gmail.com.
+        /// </summary>
+        internal static string SecondUserLogin {
+            get {
+                return ResourceManager.GetString("SecondUserLogin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to password2user.
+        /// </summary>
+        internal static string SecondUserPassword {
+            get {
+                return ResourceManager.GetString("SecondUserPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Big Attach.
+        /// </summary>
+        internal static string ThirdMessage {
+            get {
+                return ResourceManager.GetString("ThirdMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to third.user.example@gmail.com.
+        /// </summary>
+        internal static string ThirdUserLogin {
+            get {
+                return ResourceManager.GetString("ThirdUserLogin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to password3user.
+        /// </summary>
+        internal static string ThirdUserPassword {
+            get {
+                return ResourceManager.GetString("ThirdUserPassword", resourceCulture);
+            }
+        }
     }
 }
