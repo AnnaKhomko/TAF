@@ -27,9 +27,9 @@ namespace Tests
         [SetUp]
         public void Init()
         {
-            user1 = new User("first.user.example@gmail.com", "password1user");
-            user2 = new User("second.user.example@gmail.com", "password2user");
-            user3 = new User("third.user.example@gmail.com", "password3user");
+            user1 = new User(Data.FirstUserLogin, Data.FirstUserPassword);
+            user2 = new User(Data.SecondUserLogin, Data.SecondUserPassword);
+            user3 = new User(Data.ThirdUserLogin, Data.ThirdUserPassword);
             autorisation = new Authorisation();
             sendingMess = new SendingMessages();
             exit = new Exit();
@@ -103,10 +103,10 @@ namespace Tests
 
             autorisation.SetLogin(user1.Login);
             autorisation.SetPassword(user1.Password);
-            sendingMess.CreateMessage(user2.Login, "password2user");
+            sendingMess.CreateMessage(user2.Login, Data.FirstMessage);
             sendingMess.SendMessage();
-            sendingMess.AttachDocument(path + Data.FileName, user2.Login, "password2user");
-            Thread.Sleep(1000);
+            sendingMess.AttachDocument(path + Data.FileName, user2.Login, Data.FirstMessage);
+            Thread.Sleep(2000);
             sendingMess.SendMessage();
             //Thread.Sleep(1000);
             exit.LogOut();
@@ -127,8 +127,8 @@ namespace Tests
 
             sendingMess.OpenMessage();
             string message = sendingMess.GetMessageText();
-            Assert.AreEqual("password2user", message);
-            Assert.IsTrue(true);
+            Assert.AreEqual(Data.FirstMessage, message);
+            
 
            
 
